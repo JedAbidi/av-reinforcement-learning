@@ -1,0 +1,32 @@
+# RL Framework (Python 3.7 compatible versions)
+stable-baselines3==1.8.0
+gym==0.21.0
+
+# Computer Vision (Lightweight)
+opencv-python>=4.6.0,<4.8
+ultralytics==8.0.20
+
+# Deep Learning (Already installed PyTorch 1.13.1)
+
+# Utilities
+numpy==1.21.6
+pandas==1.3.5
+matplotlib==3.5.3
+pillow==9.5.0
+tqdm==4.64.1
+tensorboard==2.11.2
+
+# CARLA Dependencies
+pygame==2.1.0
+networkx==2.6.3
+scipy==1.7.3
+
+# Additional
+protobuf==3.20.3
+typing-extensions==4.1.1
+importlib-metadata
+
+gymnasium
+
+tqdm
+rich

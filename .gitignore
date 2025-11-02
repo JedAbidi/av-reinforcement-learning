@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+av_env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# CARLA
+CARLA_0914/
+*.exe
+
+# Training
+logs/
+logs_optimized/
+checkpoints/
+*.json
+tensorboard_logs/
+
+# Temporary
+*.tmp
+*.log
+*.bak
+
+# Legacy/Experimental files to DELETE
+carla_env_optimized.py
+description.txt
+diagnose_agent.py
+evaluate_agent.py
+quick_test.py
+start_training.bat
+monitor_training.bat
+visualise_agent.py
+
+# Large files to KEEP but not track
+*.pt
+*.pth
+*.zip
+*.pkl
+!ppo_carla_state_fixed.zip
+!carla_vec_normalize.pkl
+
+# Windows
+Thumbs.db
+*.lnk
+desktop.ini
+
+description.txt  
+quick_test.py  
+object_detection_lite.py
+test_agent_visual.py
+lane_detection_lite.py
+test_agent.py
